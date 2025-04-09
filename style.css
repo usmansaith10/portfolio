@@ -1,0 +1,185 @@
+body{
+    background-color: white;
+    margin: 2rem 3rem;
+}
+
+.head{
+    background-color: #003782;
+    height: 250px;
+    display: flex;
+}
+
+.sub-head{
+    background-color: #619ff6;
+    height: 250px;
+    width: 220px;
+    margin-left: 300px;
+}
+
+.h1paragraph{
+    color: white;
+}
+.cornerDesign{
+    width: 250px;
+    height: 250px;
+    align-items: end;
+    justify-content: end;
+    margin-left: -81px;
+}
+
+.name{
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 9rem;
+    margin-top: 4.5rem;
+    color: white;
+}
+
+.head-p{
+    font-size: large;
+    font-family: sans-serif;
+    margin-top: -1.5rem;
+}
+
+
+
+.imageSection{
+
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: #074192;
+    margin-left: 8.5rem;
+    margin-top: -4rem;
+    
+}
+
+
+.Section2{
+    background-color: #d9d9d9;
+    height: 300px;
+    display: flex;
+}    
+
+.subSection{
+    background-color: #619ff6;
+    height: 300px;
+    width: 450px;
+}
+
+.Introduction{
+    margin-left: 5rem;
+    margin-right: 2rem;
+    margin-top: 2.5rem;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #003782;
+}
+
+.profileimg{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 28px;
+    margin-left: 26px;
+}
+
+ 
+.container {
+    display: flex;
+}
+
+.sidebar {
+    height: 100vh; 
+    width: 553px;  
+    background: #cde1fd; 
+    padding: 126px;
+}
+
+.sidebartext {
+    font-family: 'Montserrat', sans-serif;
+    color: #003782;
+    font-size: larger;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.sidebartext h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #003782;
+}
+
+.sidebartext p {
+    margin-top: -7px;
+    color: gray;
+}
+
+.sidebartext ul {
+    list-style-position: inside;
+    font-size: medium;
+    padding-left: 0;
+    margin-top: -2px;
+    text-align: left;
+}
+
+.sidebartext ul li {
+    margin: 5px 0;
+}
+
+.main-content {
+    flex-grow: 1; 
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+strong {
+    font-weight: bold;
+    color: #34495e;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .main-content {
+        margin-left: 0;
+        padding: 10px;
+    }
+}
+
+.maincontentheading{
+    color: #003782;
+}
+
+.containerptag{
+    font-size: small;
+    text-align: center;
+}
